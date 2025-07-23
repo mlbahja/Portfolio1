@@ -65,7 +65,19 @@ const Projects = () => {
       category: 'Full Stack',
       githubUrl: 'https://github.com/yourusername/chat-app',
       liveUrl: 'https://your-chat-demo.netlify.app'
+    },
+    {
+      id: 7,
+      title: '  Groupie-Tracker',
+      description: 'Real-time chat application with multiple rooms, user authentication, and message history.',
+      image: 'https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?auto=compress&cs=tinysrgb&w=500',
+      technologies: ['React', 'Socket.io', 'Node.js', 'Redis'],
+      category: 'Full Stack',
+      githubUrl: 'https://github.com/yourusername/chat-app',
+      liveUrl: 'https://your-chat-demo.netlify.app'
     }
+
+
   ];
 
   const categories = ['All', 'Full Stack', 'Frontend', 'Backend'];

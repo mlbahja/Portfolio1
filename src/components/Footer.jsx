@@ -16,7 +16,7 @@ const Footer = () => {
         <div className="footer-content">
           <div className="footer-text">
             <p>
-              Made with <Heart size={16} className="heart-icon" /> by Your Name
+              Made with <Heart size={16} className="heart-icon" /> by Mustapha Lbahja
             </p>
             <p>&copy; {currentYear} All rights reserved.</p>
           </div>

@@ -5,9 +5,9 @@ import { Github, Linkedin, Mail, Download, ArrowRight, Code, Database, Server } 
 
 const Home = () => {
   const socialLinks = [
-    { icon: Github, href: 'https://github.com/yourusername', label: 'GitHub' },
-    { icon: Linkedin, href: 'https://linkedin.com/in/yourusername', label: 'LinkedIn' },
-    { icon: Mail, href: 'mailto:your.email@example.com', label: 'Email' }
+    { icon: Github, href: 'https://github.com/mlbahja', label: 'GitHub' },
+    { icon: Linkedin, href: 'https://www.linkedin.com/in/mustapha-lbahja-382882315/', label: 'LinkedIn' },
+    { icon: Mail, href: 'mlbahja28@gmail.com', label: 'Email' }
   ];
 
   const techIcons = [
@@ -28,14 +28,13 @@ const Home = () => {
               className="hero-text"
             >
               <h1 className="hero-title">
-                Hi, I'm <span className="highlight">Your Name</span>
+                Hi, I'm <span className="highlight">Mustapha Lbahja</span>
               </h1>
               <h2 className="hero-subtitle">Full Stack Developer</h2>
               <p className="hero-description">
                 I create modern, scalable web applications using cutting-edge technologies. 
                 Passionate about clean code, user experience, and solving complex problems.
               </p>
-              
               <div className="hero-actions">
                 <Link to="/projects" className="btn btn-primary">
                   View My Work <ArrowRight size={20} />
@@ -48,7 +47,6 @@ const Home = () => {
                   <Download size={20} /> Resume
                 </a>
               </div>
-
               <div className="social-links">
                 {socialLinks.map((social, index) => (
                   <motion.a
@@ -69,7 +67,6 @@ const Home = () => {
                 ))}
               </div>
             </motion.div>
-
             <motion.div
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}
@@ -101,7 +98,6 @@ const Home = () => {
           </div>
         </div>
       </section>
-
       <section className="intro-cards">
         <div className="container">
           <div className="cards-grid">
@@ -115,7 +111,6 @@ const Home = () => {
               <h3>Frontend Development</h3>
               <p>Creating responsive, interactive user interfaces with React, Vue, and modern CSS frameworks.</p>
             </motion.div>
-
             <motion.div
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
@@ -126,7 +121,6 @@ const Home = () => {
               <h3>Backend Development</h3>
               <p>Building robust APIs and server-side applications with Node.js, Python, and cloud technologies.</p>
             </motion.div>
-
             <motion.div
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
