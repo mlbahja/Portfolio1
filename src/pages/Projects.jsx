@@ -9,7 +9,7 @@ const Projects = () => {
     {
       id: 1,
       title: 'RealTime-Forum-Chat',
-      description: 'A full-stack Forum solution with user authentication, and users can chat with others and make interact with them by likeing them posts or mark down commant in there posts',
+      description: 'A full-stack forum solution with user authentication, where users can chat with others, interact by liking posts, and leave comments on their posts.',
       image: 'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=500',
       technologies: ['Golang', 'javascript vanila', 'SQilte', 'html css'],
       category: 'Full Stack',
