@@ -23,8 +23,8 @@ const Projects = () => {
       image: 'https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=500',
       technologies: ['Vue.js', 'Express.js', 'Socket.io', 'PostgreSQL'],
       category: 'Full Stack',
-      githubUrl: 'https://github.com/yourusername/task-manager',
-      liveUrl: 'https://real-time-forum-production-6031.up.railway.app/'
+      githubUrl: 'https://github.com/mlbahja/real-time-forum-typing-in-progress',
+      liveUrl: 'https://real-time-forum-production-6031.up.railway.app'
     },
     {
       id: 3,
