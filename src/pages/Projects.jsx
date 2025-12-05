@@ -10,7 +10,7 @@ const Projects = () => {
       id: 1,
       title: 'RealTime-Forum-Chat',
       description: 'A full-stack forum solution with user authentication, where users can chat with others, interact by liking posts, and leave comments on their posts.',
-      image: 'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=500',
+      image: 'https://www.thecrazyprogrammer.com/wp-content/uploads/2020/08/How-a-Real-Time-Chat-Application-Works.png',
       technologies: ['Golang', 'javascript vanila', 'SQilte', 'html css'],
       category: 'Full Stack',
       githubUrl: 'https://github.com/mlbahja/real-time-forum-typing-in-progress',
