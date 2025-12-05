@@ -14,7 +14,7 @@ const Projects = () => {
       technologies: ['Golang', 'javascript vanila', 'SQilte', 'html css'],
       category: 'Full Stack',
       githubUrl: 'https://github.com/mlbahja/real-time-forum-typing-in-progress',
-      liveUrl: 'https://your-ecommerce-demo.netlify.app uppamiing'
+      liveUrl: 'https://real-time-forum-production-6031.up.railway.app'
     },
     {
       id: 2,
