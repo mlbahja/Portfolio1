@@ -8,23 +8,23 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: 'E-Commerce Platform',
-      description: 'A full-stack e-commerce solution with user authentication, payment integration, and admin dashboard.',
+      title: 'RealTime-Forum-Chat',
+      description: 'A full-stack Forum solution with user authentication, and users can chat with others and make interact with them by likeing them posts or mark down commant in there posts',
       image: 'https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=500',
-      technologies: ['React', 'Node.js', 'MongoDB', 'Stripe'],
+      technologies: ['Golang', 'javascript vanila', 'SQilte', 'html css'],
       category: 'Full Stack',
-      githubUrl: 'https://github.com/yourusername/ecommerce-project',
-      liveUrl: 'https://your-ecommerce-demo.netlify.app'
+      githubUrl: 'https://github.com/mlbahja/real-time-forum-typing-in-progress',
+      liveUrl: 'https://your-ecommerce-demo.netlify.app uppamiing'
     },
     {
       id: 2,
-      title: 'Task Management App',
+      title: '01-BLOG',
       description: 'A collaborative task management application with real-time updates and team collaboration features.',
       image: 'https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=500',
       technologies: ['Vue.js', 'Express.js', 'Socket.io', 'PostgreSQL'],
       category: 'Full Stack',
       githubUrl: 'https://github.com/yourusername/task-manager',
-      liveUrl: 'https://your-taskmanager-demo.netlify.app'
+      liveUrl: 'https://real-time-forum-production-6031.up.railway.app/'
     },
     {
       id: 3,
